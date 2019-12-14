@@ -3,12 +3,15 @@
 	<meta charset="UTF-8">
 	<title>so_ojin</title>
 	<style>
+		.page {
+			background-color: thistle;
+			overflow: auto;
+		}
 		.GNB {
 			background-color: wheat;
 			height: 72px;
 			float: right;
 			padding: 0px 72px;
-			text-align: center;
 		}
 		.GNB ul li {
 			list-style: none;
@@ -54,17 +57,22 @@
 </head>
 
 <html>
-    <div class="GNB">
-		<ul>
-			<li><a id="menu" hreft="#home">Home</a></li>
-			<li><a id="menu" href="#calendar">Calendar</a></li>
-			<li><a id="menu" href="#blog">Blog</a></li>
-		</ul>
-    </div>
-	<div id="home">
-		<p>home</p>
-	</div>
-	<div id="Blog">
-		<p></p>
-	</div>
+	<div class="page">
+    	<div class="GNB">
+			<ul>
+				<li><a id="menu" hreft="#home">Home</a></li>
+				<li><a id="menu" href="#calendar">Calendar</a></li>
+				<li><a id="menu" href="#blog">Blog</a></li>
+			</ul>
+    	</div>
+		<div class="home">
+			<h2>Home</h2>
+		</div>
+		<div class="Blog">
+			<h2>Blog</h2>
+		</div>
+		<div class="footer">
+			<h2>Footer</h2>
+		</div>
+</div>
 </html>
