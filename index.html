@@ -3,14 +3,14 @@
 	<meta charset="UTF-8">
 	<title>so_ojin</title>
 	<style>
-		#GNB {
+		.GNB {
 			background-color: wheat;
 			height: 72px;
 			float: right;
 			padding: 0px 72px;
 			text-align: center;
 		}
-		#GNB ul li {
+		.GNB ul li {
 			list-style: none;
 			color: #111111;
 			background-color: #ffffff;
@@ -18,7 +18,7 @@
 			line-height: 21px;
 			text-align: center;
 		}
-		#GNB .menu {
+		.GNB #menu {
 			text-decoration: none;
 			color: #111111;
 			display: block;
@@ -26,19 +26,19 @@
 			font-weight: regular;
 			font-size: 16px;
 		}
-		#GNB .menu:hover {
+		.GNB #menu:hover {
 			color: #0064FB;
 			font-weight: bold;
 			font-family: "IMB Plex Sans";
 			font-size: 16px;
 		}
-		#GNB .menu:active{
+		.GNB #menu:active{
 			color: #0064fb;
 			font-family: "IBM Plex Sans";
 			font-weight: bold;
 			font-size: 16px;
 		}
-		.menu {
+		#menu {
 			width: 65px;
 			padding: 10px;
 			margin: 0;
@@ -54,11 +54,11 @@
 </head>
 
 <html>
-    <div id="GNB">
+    <div class="GNB">
 		<ul>
-			<li><a class="menu" hreft="#home">Home</a></li>
-			<li><a class="menu" href="#calendar">Calendar</a></li>
-			<li><a class="menu" href="#blog">Blog</a></li>
+			<li><a id="menu" hreft="#home">Home</a></li>
+			<li><a id="menu" href="#calendar">Calendar</a></li>
+			<li><a id="menu" href="#blog">Blog</a></li>
 		</ul>
     </div>
 	<div id="home">
