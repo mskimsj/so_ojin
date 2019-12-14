@@ -1,62 +1,55 @@
 <!DOCTYPE html>
-<html lang="ko">
-	<head>
-		<meta charset="UTF-8">
-		<title>soojin</title>
-		<style>
-			div .page {
-				background-color: thistle;
-				overflow: auto;
-			}
-			nav {
-				border: #111111;
-				width: 100%;
-				height: 72px;
-				float: right;
-			}
-			ul li {
-				float: left;
-				text-align: left;
-				font-family: "IBM Plex Sans";
-				font-size: 16px;
-				font-weight: regular;
-				list-style: none;
-				line-height: 24px;
-			}
-			nav .menu {
-				padding: 24px 10px;
-				width: 48px;
-			}
-			section {
-				background-color: yellowgreen;
-				width: 100%;
-				height: 680px;
-			}
-			footer {
-				background-color: teal;
-				width: 100%;
-				height: 72px;
-			}
-		</style>
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<title>so_ojin</title>
+	<style>
+		#GNB {
+			float: right;
+			padding: 0px 72px;
+			text-align: center;
+		}
+		#GNB ul li {
+			list-style: none;
+			color: #111111;
+			background-color: #ffffff;
+			float: left;
+			line-height: 21px;
+			text-align: center;
+		}
+		#GNB .menu {
+			text-decoration: none;
+			color: #111111;
+			display: block;
+			font-family: "IBM Plex Sans";
+			font-weight: regular;
+			font-size: 16px;
+		}
+		#GNB .menu:hover {
+			color: #0064FB;
+			font-weight: bold;
+			font-family: "IMB Plex Sans";
+			font-size: 16px;
+		}
+		#GNB .menu:active{
+			color: #0064fb;
+			font-family: "IBM Plex Sans";
+			font-weight: bold;
+			font-size: 16px;
+		}
+		.menu {
+			width: 65px;
+			padding: 10px;
+			margin: 0;
+		}
+	</style>
+</head>
 
-	<body>
-		<div class="page">
-			<nav>
-				<ul>
-					<li class="menu">Home</li>
-					<li class="menu">Blog</li>
-				</ul>
-			</nav>
-			<section>
-				<h2>home</h2>
-			</section>
-			<footer>
-				<ul>
-					<li class="contact">Notion</li>
-					<li class="contact">mail</li>
-				</ul>
-			</footer>
-		</div>
-	</body>
+<html>
+    <nav id="GNB">
+		<ul>
+			<li><a class="menu" hreft="#home">Home</a></li>
+			<li><a class="menu" href="#calendar">Calendar</a></li>
+			<li><a class="menu" href="#blog">Blog</a></li>
+		</ul>
+	</nav>
 </html>
